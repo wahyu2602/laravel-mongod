@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Langkah Satu 
+
+Pastikan sudah terinstall Mongodb v.4.2, Dan aktifkan server Mongodbnya
+
+## Langkah Kedua 
+
+ketikan php artisan migrate pada terminal
+
+## Langkah Ketiga
+
+jalankan server php artisan serve
+
+## Langkah Keempat 
+
+Buka Postman untuk mencoba Rest API nya
+
+## Cara Penggunaan
+
+- Registrasi [POST] http://localhost:8000/api/auth/register
+- Login [POST] http://localhost:8001/api/auth/login
+- Menambahkan Stok Kendaraan Mobil [POST] http://localhost:8001/api/add_kendaraan/mobil
+- Menambahkan Stok Kendaraan Motor [POST] http://localhost:8001/api/add_kendaraan/motor
+- Melihat Semua Stok Kendaraan [GET] http://localhost:8001/api/show
+- Melihat Kendaraan Mobil [GET]  http://localhost:8001/api/show/mobil
+- Melihat Kendaraan Motor [GET] http://localhost:8001/api/show/motor
+- Membeli Kendaran [POST] http://localhost:8001/api/beli/{id_kendaraan}
+- Melihat Laporan Penjualan Kendaraan [GET] http://localhost:8001/api/laporan_penjualan
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
