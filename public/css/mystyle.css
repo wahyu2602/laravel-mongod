@@ -1,0 +1,17 @@
+body {
+  background: #f1f2f6;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  background: #20bf6b;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: -200px;
+}
