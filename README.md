@@ -26,14 +26,14 @@ Buka Postman untuk mencoba Rest API nya
 ## Cara Penggunaan
 
 - Registrasi [POST] http://localhost:8000/api/auth/register
-- Login [POST] http://localhost:8001/api/auth/login
-- Menambahkan Stok Kendaraan Mobil [POST] http://localhost:8001/api/add_kendaraan/mobil
-- Menambahkan Stok Kendaraan Motor [POST] http://localhost:8001/api/add_kendaraan/motor
-- Melihat Semua Stok Kendaraan [GET] http://localhost:8001/api/show
-- Melihat Kendaraan Mobil [GET]  http://localhost:8001/api/show/mobil
-- Melihat Kendaraan Motor [GET] http://localhost:8001/api/show/motor
-- Membeli Kendaran [POST] http://localhost:8001/api/beli/{id_kendaraan}
-- Melihat Laporan Penjualan Kendaraan [GET] http://localhost:8001/api/laporan_penjualan
+- Login [POST] http://localhost:8000/api/auth/login
+- Menambahkan Stok Kendaraan Mobil [POST] http://localhost:8000/api/add_kendaraan/mobil
+- Menambahkan Stok Kendaraan Motor [POST] http://localhost:8000/api/add_kendaraan/motor
+- Melihat Semua Stok Kendaraan [GET] http://localhost:8000/api/show
+- Melihat Kendaraan Mobil [GET]  http://localhost:8000/api/show/mobil
+- Melihat Kendaraan Motor [GET] http://localhost:8000/api/show/motor
+- Membeli Kendaran [POST] http://localhost:8000/api/beli/{id_kendaraan}
+- Melihat Laporan Penjualan Kendaraan [GET] http://localhost:8000/api/laporan_penjualan
 
 ## About Laravel
 
